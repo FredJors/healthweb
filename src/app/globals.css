@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+
+  /* Flächen */
+  --color-page: #f2efe9;
+  --color-card: #ffffff;
+  --color-soft: #f7f4ee;
+  --color-sidebar: #12141f;
+
+  /* Text */
+  --color-ink: #1a1a1a;
+  --color-ink-2: #6e6a61;
+  --color-ink-3: #9b968b;
+
+  /* Linien */
+  --color-hairline: #e8e4da;
+
+  /* Akzente (validiert, siehe dataviz-Palette) */
+  --color-accent: #e0446e;
+  --color-accent-soft: #fceef2;
+  --color-orange: #eb6834;
+  --color-orange-soft: #fdefe8;
+  --color-blue: #2a78d6;
+  --color-blue-soft: #eaf2fc;
+
+  /* Status / Deltas */
+  --color-pos: #006300;
+  --color-pos-soft: #e9f4e6;
+  --color-neg: #c22f2f;
+  --color-neg-soft: #fdecec;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}

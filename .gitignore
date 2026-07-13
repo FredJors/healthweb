@@ -1,0 +1,15 @@
+# Persönliche Gesundheitsdaten niemals versionieren
+HealthDaten*
+export*.zip
+Export*.zip
+
+node_modules/
+.next/
+out/
+build/
+*.log
+.env*
+!.env.example
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
